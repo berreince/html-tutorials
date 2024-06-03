@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Balloons</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .balloon {
+            width: 50px;
+            height: 70px;
+            background-color: red;
+            border-radius: 50% 50% 50% 50%;
+            position: relative;
+            margin: 10px;
+        }
+        .balloon::before {
+            content: '';
+            width: 10px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 0 0 5px 5px;
+        }
+        .balloon::after {
+            content: '';
+            width: 2px;
+            height: 20px;
+            background-color: gray;
+            position: absolute;
+            bottom: -70px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+    <div class="balloon"></div>
+</body>
+</html>
