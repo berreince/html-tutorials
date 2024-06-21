@@ -220,7 +220,8 @@
   }
 
   .browse-our-menu {
-    padding: 92px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     margin: 60px;
     display: flex;
     align-items: center;
@@ -246,7 +247,7 @@
     padding: 10px; /* Öğe içi boşluk */
     border: 1.5px solid #DBDFD0; /* Kenarlık */
     border-radius: 12px; /* Köşe yuvarlama */
-    width: 306px; /* Kutu genişliği */
+    width: 346px; /* Kutu genişliği */
     height: 306px; /* Kutu yüksekliği */
     background-color: #ffff; /* Arka plan rengi */
     text-align: center;
@@ -257,12 +258,12 @@
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px; /* Öğeler arası boşluk */
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding: 10px; /* Öğe içi boşluk */
     border: 1.5px solid #DBDFD0; /* Kenarlık */
     border-radius: 12px; /* Köşe yuvarlama */
-    width: 306px; /* Kutu genişliği */
+    width: 346px; /* Kutu genişliği */
     height: 306px; /* Kutu yüksekliği */
     background-color: #ffff; /* Arka plan rengi */
     text-align: center;
@@ -273,12 +274,12 @@
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px; /* Öğeler arası boşluk */
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding: 10px; /* Öğe içi boşluk */
     border: 1.5px solid #DBDFD0; /* Kenarlık */
     border-radius: 12px; /* Köşe yuvarlama */
-    width: 306px; /* Kutu genişliği */
+    width: 346px; /* Kutu genişliği */
     height: 306px; /* Kutu yüksekliği */
     background-color: #ffff; /* Arka plan rengi */
     text-align: center;
@@ -289,15 +290,21 @@
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px; /* Öğeler arası boşluk */
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding: 10px; /* Öğe içi boşluk */
     border: 1.5px solid #DBDFD0; /* Kenarlık */
     border-radius: 12px; /* Köşe yuvarlama */
-    width: 306px; /* Kutu genişliği */
+    width: 346px; /* Kutu genişliği */
     height: 306px; /* Kutu yüksekliği */
     background-color: #ffff; /* Arka plan rengi */
     text-align: center;
+  }
+
+  .menu-icons {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
   }
 
   .text-explore-button {
@@ -306,4 +313,13 @@
     color: #AD343E;
     font-weight: bold;
     text-decoration: none;
+  }
+
+  .section2 {
+    background-color: #ff0844;
+  }
+
+  .about-us-teaser {
+    display: flex;
+    justify-content: center;
   }
