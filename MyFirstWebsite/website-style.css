@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background: #ffff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); /* Renk değerini düzelttik */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #2C2F24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar__links:hover {
+    color: #AD343E;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background: #ff0844;
+    color: #ffff;
+    max-width: fit-content;
+    white-space: nowrap;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.button:hover {
+    background: #ffb199;
+    color: #ffff;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.body-html {
+    height: 100%;
+}
+
+.hero {
+    background-image: url('images/hero-imge.png');
+    background-size: cover; /* Görseli kapsayacak şekilde ölçekle */
+    background-position: center; /* Görselin ortalanması */
+    background-repeat: no-repeat; /* Görselin tekrarlanmaması */
+    height: 94vh; /* Tam ekran yüksekliği */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .hero-content {
+    color: #2C2F24;
+    align-items: center;
+    align-content: center;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 5.25rem;
+    font-weight: lighter;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 3.3rem;
+    font-weight: lighter;
+    line-height: 1;
+    margin-bottom: 60px;
+  }
+
+  h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    font-weight: lighter;
+  }
+
+  .sub-paragraph {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    margin: 20px;
+    padding: 20;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+  }
+
+  .cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background: #ff0844;
+    color: #ffff;
+    max-width: fit-content;
+    white-space: nowrap;
+    margin: 10px;
+  }
+
+  .cta-button:hover {
+    background: #ffb199;
+    color: #ffff;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+
+  .explore-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background: #ffff;
+    color: #2C2F24;
+    max-width: fit-content;
+    white-space: nowrap;
+    outline: #2C2F24;
+    outline: 1px solid;
+    margin: 10px;
+  }
+
+  .explore-button:hover {
+    background: #2C2F24;
+    color: #ffff;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+
+  .browse-our-menu {
+    padding: 92px;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu-types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    list-style: none;
+  }
+
+  .breakfast {
+    align-items: center; /* Öğeleri dikeyde ortala */
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Öğeler arası boşluk */
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px; /* Öğe içi boşluk */
+    border: 1.5px solid #DBDFD0; /* Kenarlık */
+    border-radius: 12px; /* Köşe yuvarlama */
+    width: 306px; /* Kutu genişliği */
+    height: 306px; /* Kutu yüksekliği */
+    background-color: #ffff; /* Arka plan rengi */
+    text-align: center;
+  }
+
+  .main-dishes {
+    align-items: center; /* Öğeleri dikeyde ortala */
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Öğeler arası boşluk */
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px; /* Öğe içi boşluk */
+    border: 1.5px solid #DBDFD0; /* Kenarlık */
+    border-radius: 12px; /* Köşe yuvarlama */
+    width: 306px; /* Kutu genişliği */
+    height: 306px; /* Kutu yüksekliği */
+    background-color: #ffff; /* Arka plan rengi */
+    text-align: center;
+  }
+
+  .drinks {
+    align-items: center; /* Öğeleri dikeyde ortala */
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Öğeler arası boşluk */
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px; /* Öğe içi boşluk */
+    border: 1.5px solid #DBDFD0; /* Kenarlık */
+    border-radius: 12px; /* Köşe yuvarlama */
+    width: 306px; /* Kutu genişliği */
+    height: 306px; /* Kutu yüksekliği */
+    background-color: #ffff; /* Arka plan rengi */
+    text-align: center;
+  }
+
+  .desserts {
+    align-items: center; /* Öğeleri dikeyde ortala */
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Öğeler arası boşluk */
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px; /* Öğe içi boşluk */
+    border: 1.5px solid #DBDFD0; /* Kenarlık */
+    border-radius: 12px; /* Köşe yuvarlama */
+    width: 306px; /* Kutu genişliği */
+    height: 306px; /* Kutu yüksekliği */
+    background-color: #ffff; /* Arka plan rengi */
+    text-align: center;
+  }
+
+  .text-explore-button {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    color: #AD343E;
+    font-weight: bold;
+    text-decoration: none;
+  }
