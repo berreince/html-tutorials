@@ -24,7 +24,7 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 1rem;
 }
 
 #navbar__logo {
@@ -130,15 +130,15 @@
     font-size: 5.25rem;
     font-weight: lighter;
     line-height: 1;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   h2 {
     font-family: "Playfair Display", serif;
     font-size: 3.3rem;
-    font-weight: lighter;
+    font-weight: 200;
     line-height: 1;
-    margin-bottom: 60px;
+    margin-bottom: 24px;
   }
 
   h3 {
@@ -146,14 +146,21 @@
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 1;
-    margin-bottom: 30px;
+  }
+
+  h4 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 12px;
   }
 
   p {
     font-family: "Nunito Sans", sans-serif;
     font-size: 1.25rem;
-    margin-top: 20px;
     font-weight: lighter;
+    margin-bottom: 24px;
   }
 
   .sub-paragraph {
@@ -208,7 +215,7 @@
     max-width: fit-content;
     white-space: nowrap;
     outline: #2C2F24;
-    outline: 1px solid;
+    outline: 1.5px solid;
     margin: 10px;
   }
 
@@ -315,11 +322,60 @@
     text-decoration: none;
   }
 
-  .section2 {
-    background-color: #ff0844;
-  }
-
   .about-us-teaser {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #F9F9F7;
+    padding-bottom: 92px;
+    padding-top: 92px;
+  }
+
+  .about-us-teaser-png {
+    max-width: 500px;
+    margin: 100px;
+  }
+
+  .more-about-us-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 100px;
+    background: #F9F9F7;
+    color: #2C2F24;
+    max-width: fit-content;
+    white-space: nowrap;
+    outline: #2C2F24;
+    outline: 1.5px solid;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .more-about-us-button:hover {
+    background: #2C2F24;
+    color: #F9F9F7;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+
+  .services {
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    margin-bottom: 40px;
+  }
+
+  .service-types {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+
+  .caterings {
+    margin-right: 20;
   }
